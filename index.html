@@ -5,10 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cash Register</title>
 
-    <link rel="stylsheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Cash Register</h1>
+    <form onsubmit="return balance(event)">
+        <label for="billamt"><h3>Bill Amount</h3></label>
+        <input type="number" name="billamt" placeholder="Rs" />
+        <label for ="cashrec"><h3>Cash Received</h3></label>
+        <input type="number" name="cashrec" placeholder="Rs" />
+    <table>
+        <tr>
+          <td>2000</td> <td>X</td>
+          <td id="tth"> 0 </td> <td>= </td>
+          <td id="ttha">0</td>
+        </tr>
+        <tr>
+          <td>500</td>
+          <td>X</td>
+          <td id="fvh"> 0</td> <td>= </td>
+          <td id="fvha">0</td>
+        </tr>
+        <tr>
+          <td>100</td> <td>X</td>
+          <td id="hnd">0</td> <td>= </td>
+          <td id="hnda">0</td>
+        </tr>
+        <tr>
+          <td>50</td>
+          <td>X</td> <td id="fty">0</td>
+          <td>= </td>
+          <td id="ftya">0</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>X</td> <td id="ten">0</td> <td>= </td>
+          <td id="tena">0</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>X</td> <td id="fiv">0</td>
+          <td>= </td>
+          <td id="fiva">0</td>
+        </tr>
+        <tr>
+          <td>1</td> <td>X</td> <td id="one">0</td>
+          <td>= </td>
+          <td id="onea">0</td>
+        </tr>
+      </table>
+      <h4>Total:</h4><span id="balspan">&nbsp;&nbsp;balance</span><br><br>
+      <button type="submit">Get denomination</button>
+    </form>
+    </div>
 
     <script type="text/javascript" src="scripts.js"></script>
 </body>

@@ -1,0 +1,39 @@
+*{
+    font-family: sans-serif;
+}
+/* body{
+    
+    /* https://us.123rf.com/450wm/mvelishchuk/mvelishchuk1911/mvelishchuk191100280/133631407-money-background-hundred-dollars-of-america-usd-cash-money-falling-.jpg?ver=6
+    background-blend-mode: lighten;
+    
+} */
+.container{
+    text-align: center;
+    max-width: 600px;
+    margin: 0px auto 5px auto;
+    
+    background-image: url("https://thumbs.dreamstime.com/z/calculator-lying-us-dollar-bills-white-background-money-cash-currency-calculator-lying-us-dollar-bills-white-136516421.jpg");
+    background-size: cover;
+
+    padding-top: 5px;
+    padding-bottom: 2%;
+    
+    /* rgba(256,256,256,.9); */
+}
+h1{
+    font-weight: 400;
+    font-size: 50px;
+}
+table{
+    align-self: center;
+    margin: 10px auto 10px auto;
+}
+table>tr ,tr>td{
+    padding:10px;
+}
+h4{
+    display: inline;
+}
+input[type=text]{
+    padding: 15px;
+}
